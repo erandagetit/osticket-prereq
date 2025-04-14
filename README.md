@@ -18,26 +18,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> (22H2)
 
 <h2>List of Prerequisites</h2>
 
-<p>PHPManagerForIIS_V1.5.0.msi</p>
-<p>Rewrite_amd64_en-US.msi</p>
-<p>PHP-7.3.8-nts-Win32-VC15-x86.zip</p>
-<p>VC_redist.x86.exe</p>
-<p>MySQL5.5.62</p>
+- Microsoft Azure Account</p>
+- Basic knowledge of IIS</p>
+- Remote Desktop Access</p>
+- osTicket Installation Files</p>
+- HeidiSQL</p>
 
 <h2>Installation Steps</h2>
-
+1.) Creating a Virtual Machine
 <p>
-<img src="https://https://i.imgur.com/IMOCpiS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In Microsoft Azure, we will create a VM and add it to a new Resource Group, titled ''osTicket''
 </p>
-<p>
-Customizing the permission for each roles.
-</p>
+- VM Name: osticket-vm
+- Image: Windows 10 Pro, version 22H2-x64 Gen2
+- Size: 2 vCPUs, 16 GiB memory
 <br />
-
+Navigate to the Virtual Mavhines page and 
+select "Create". For this instance we will 
+create an Azure Virtual Machine.
 <p>
 <img src="https://i.imgur.com/IMOCpiS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
