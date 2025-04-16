@@ -41,66 +41,75 @@ In Microsoft Azure, we will create a VM and add it to a new Resource Group, titl
 Navigate to the Virtual Mavhines page and 
 select "Create". For this instance we will 
 create an Azure Virtual Machine. 
-<img src=https://i.imgur.com/PALcjK1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+<img src=https://i.imgur.com/yas6tui.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
  Create a new resource group (if needed),
 name the virtual machine, select the region
 and the image/operating system.
-<img src=https://i.imgur.com/atMrgf6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+<img src=https://i.imgur.com/uFUSpeO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 Select the preferred cpu size, enter 
 adminstrative credentials, check the 
 licensing box and review & create the VM.
 No changes are needed for management,
 disks, or networking sections.
-
+<img src=https://i.imgur.com/ZTLW4q6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 2.) Accessing the Virtual Machine
-
+</p>
 Retrieve the VM's Public's IP Address and
 log using **Remont Desktop** with the
 credentials created during the VM setup.
+<img src=https://i.imgur.com/uYp21B9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+</p>
 3.) Download and Prepare
 Installation Files
-
+</p>
 - Within the VM, downlaod the
   osTicket-Installation-Files.zip
   and unzip it to your desktop. The folder
   should be named osTicket-
   Installation-Files.
-
+<img src=https://i.imgur.com/oA01ZJ7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 4.) Install IIS and Enable Required
 Features
-
+</p>
 Open Control Panel -> Programs -> Turn
 Windows features on or off. Install/enable
 IIS with the following features:
-
+</p>
 - World Wide Web Service ->
   Application Development Features ->
   [X] CGI
+<img src=https://i.imgur.com/LGR1R2d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/HlHAQo5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 5.) Install Required Components
-
+</p>
 From the osTicket-Installation-Files
 folder:
-
+</p>
 - Install PHP Manager for IIS:
    PHPManagerForIIS_V1.5.0.msi.
 - Install Rewrite Module:
    rewrite_amd64_en-US.msi
-
+<img src=https://i.imgur.com/K8ibp20.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 6.) Setup PHP
-
+</p>
 - Navigate to the C: drive and create the
   directory C:\PHP
 - Unzip PHP 7.3.8 (php-7.3.8-nts-
   Win32-VC15-x86.zip) into the C:\PHP
   folder.
 - Install VC_redist.x86.exe.
-
+<img src=https://i.imgur.com/kwYak6U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/2mEGGNo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/IpcgIzX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 7.) Install MySQL
-
+</p>
 - From the osTicket-Installation-
   Files folder, install MySQL 5.5.62
   (my sql-5.5.62-win32.msi).
