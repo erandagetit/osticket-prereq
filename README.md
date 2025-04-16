@@ -40,10 +40,9 @@ In Microsoft Azure, we will create a VM and add it to a new Resource Group, titl
 <br />
 Navigate to the Virtual Mavhines page and 
 select "Create". For this instance we will 
-create an Azure Virtual Machine.
-<p>
+create an Azure Virtual Machine. 
 
-Create a new resource group (if needed),
+ Create a new resource group (if needed),
 name the virtual machine, select the region
 and the image/operating system.
 <p>
