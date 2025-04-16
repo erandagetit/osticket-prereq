@@ -207,9 +207,9 @@ now ready to use!
   
 
 <p>
-<img src="https://i.imgur.com/ROFuXhX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-After creating roles and specifying permissions I can determine whether users can view, edit, or have specific access to sections.
+
 </p>
 <br />
