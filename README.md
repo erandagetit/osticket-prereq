@@ -41,7 +41,8 @@ In Microsoft Azure, we will create a VM and add it to a new Resource Group, titl
 Navigate to the Virtual Mavhines page and 
 select "Create". For this instance we will 
 create an Azure Virtual Machine. 
-
+<img src=https://i.imgur.com/PALcjK1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
  Create a new resource group (if needed),
 name the virtual machine, select the region
 and the image/operating system.
