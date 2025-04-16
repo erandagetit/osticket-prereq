@@ -42,11 +42,12 @@ Navigate to the Virtual Mavhines page and
 select "Create". For this instance we will 
 create an Azure Virtual Machine. 
 <img src=https://i.imgur.com/PALcjK1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- 
+
  Create a new resource group (if needed),
 name the virtual machine, select the region
 and the image/operating system.
-<p>
+<img src=https://i.imgur.com/atMrgf6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 Select the preferred cpu size, enter 
 adminstrative credentials, check the 
 licensing box and review & create the VM.
