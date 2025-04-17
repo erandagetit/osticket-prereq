@@ -104,9 +104,10 @@ folder:
   Win32-VC15-x86.zip) into the C:\PHP
   folder.
 - Install VC_redist.x86.exe.
-<img src=https://i.imgur.com/kwYak6U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src=https://i.imgur.com/2mEGGNo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src=https://i.imgur.com/IpcgIzX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/5pW8bRo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/5dbQucb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/5dbQucb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 7.) Install MySQL
 </p>
@@ -118,18 +119,29 @@ folder:
     - Standard Configguration
     - input a username and
       password, don't forget this!
+<img src=https://i.imgur.com/WW2I3V2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/EVsfg4C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/UhV2QN7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/kt6zGCq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+</p>
 
+</p>
 8.) Configure IIS
-
+</p>
 - Open IIS as an administrator.
 - Register PHP:
   -Go to PHP Manager -> Register
    PHP path -> C:\PHP\php-
    cgi.exe.
 - Reload IIS (Stop and Start the Server)
+<img src=https://i.imgur.com/l9EaMDd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/Hzs7jjZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/hA4aZGJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+</p>
 9.) Install osTicket
-
+</p>
  - From the osTicket-Installation-
    Files folder:
     - Unzip osTicket-v1.15.8.zip.
@@ -138,14 +150,18 @@ folder:
     - Rename the upload folder to
       osTicket (Exact Spelling!).
  - Reload IIS (Stop and Start the server).
-
+<img src=https://i.imgur.com/sXCYOGr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/LTKA5vi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 10.) Configure osTicket 
-
+</p>
 - Open IIS:
   - Navigate to Sites -> Default ->
     osTicket.
   - On the right, click *Browse :80.
- 
+ <img src=https://i.imgur.com/LTKA5vi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src=https://i.imgur.com/LTKA5vi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 - Note extensions that are not enabled.
   Go back to IIS:
   - Navigate to Sites -> Default ->
