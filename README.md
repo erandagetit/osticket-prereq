@@ -159,9 +159,9 @@ folder:
   - Navigate to Sites -> Default ->
     osTicket.
   - On the right, click *Browse :80.
- <img src=https://i.imgur.com/LTKA5vi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src=https://i.imgur.com/LTKA5vi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+ <img src=https://i.imgur.com/egMnSL8.png=" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src=https://i.imgur.com/mTXEk9E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 - Note extensions that are not enabled.
   Go back to IIS:
   - Navigate to Sites -> Default ->
@@ -173,9 +173,11 @@ folder:
     - php_imap.dll
     - php_intl.dll
     - php_opcache.dll
-
+<img src=https://i.imgur.com/cJz2ny8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/769iJlY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 11.) Update Configuration Files
-
+</p>
 - Rename ost-config.php:
    - From:
      C:\inetpub\wwwroot\osTicket\in
@@ -188,18 +190,22 @@ folder:
     permissions.
   - Add new permissions -> Everyone
     -> Full control.
-
+<img src=https://i.imgur.com/vIrFusw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/6GuGYpt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/v0kXIBS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 12.) Complete osTicket Setup
-
+</p>
 - In the browser, continue the osTicket
   setup:
    - Setup Helpdesk Name.
    - Set Default email (receives emails
      from customers).
-
+<img src=https://i.imgur.com/OgGIUyk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 13.) Install HeidiSQL and Configure
 Database
-
+</p>
 - From the osTicket-Installation-
   Files folder, install HeidiSQL.
 - Open HeidiSQL:
@@ -208,23 +214,28 @@ Database
   - Connect to the session.
   - Create a database named
     osTicket.
-
+<img src=https://i.imgur.com/luXkIgS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/3UvHian.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/oiw0KZG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/i72Hp6R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 14.) Finalize osTicket Installation
-
+</p>
 - In the browser, complete the setup:
     - MySQL Database: osTicket
     - MySQL Username: root
     - MySQL Password: root
 - Click Install Now!
-
+<img src=https://i.imgur.com/JEsmZAm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 15.) Verify Installation 
-
+</p>
  - Access your help desk login page:
    http://localhost/osTicket/scp/logi
    n.php.
-
+<img src=https://i.imgur.com/ZsBkHdl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 Conclusion
-
+</p>
 Congratulations! You have successfully
 installed and configured osTicket on your
 virtual machine. Your help desk system is
